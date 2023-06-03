@@ -1,0 +1,42 @@
+---
+format: html
+editor: visual
+---
+
+## 1.2 Average Normal Stress
+
+Average normal stress is defined as the internal normal force divided by the cross-sectional area of the body. It is given the Greek letter sigma (σ). Stress increases as the force increases or as the cross-sectional area decreases.
+
+$$
+\boxed{
+\sigma=\frac{N}{A}}
+$$
+
+         *where*\
+             *𝜎 = Normal Stress \[Pa, psi\]*\
+             *N = Internal normal force \[N, lb\]*\
+             *A = Cross-sectional area \[m\^2, in.\^2\]*
+
+As such the SI units of stress are N/m^2^, more commonly referred to as the Pascal (Pa) where 1 Pa = 1 N/m^2^. The US customary units for stress are lb/in.^2^, commonly written as psi. Since stresses can get very large, it is common to use prefixes such as kilo (k) and mega (M) to represent 10^3^ and 10^6^ respectively. A stress of 15,000,000 Pa is written as 15 MPa. A stress of 35,000 psi is written as 35 ksi.
+
+Normal stress occurs perpendicular to the cross-section and so is associated with either a pulling or pushing motion (Figure 1.2). Normal forces that pull on a cross-section are known as tensile forces and create a tensile normal stress. Normal forces that push on a cross-section are known as compressive forces and create a compressive normal stress. Really this is an average normal stress as the force is distributed over the cross-section, but we generally simplify this to a concentrated force that creates the same normal stress at every point on the cross-section.
+
+![Figure 1.2: Tension and Compression](Chapter%201.2_files/Figure%201.2.png)
+
+The internal normal force can be found through the method of equilibrium as learned in Statics. See Example 1.1 for a demonstration.
+
+::: {.callout-tip icon="false"}
+## Example 1.1
+
+The steel beam below is...
+:::
+
+Sometimes the loading or cross-sectional area of the body will change, resulting in a change in stress. In these cases the stress can be calculated separately in each segment of the body by first finding the internal load in each segment and then dividing the internal load by the cross-sectional area of the respective segment. Different parts of the body may experience different stresses. Generally the highest stress is of most importance as that is the stress that determines whether the body will break, but it is typically necessary to calculate the stress at all points in the body in order to determine the highest stress. See Example 1.2 for a demonstration.
+
+::: {.callout-tip icon="false"}
+## Example 1.2
+
+Two solid cylindrical rods AB and BC are welded together at point B and subjected to the external loads shown. The dimensions d<sub>1</sub> = 30 mm and d<sub>2</sub> = 50 mm. Determine the internal normal force in each rod and the average normal stress in each rod.
+
+![](Chapter%201.2_files/Example%201.2.png){width="343"}
+:::

@@ -1,0 +1,14 @@
+---
+format: html
+editor: visual
+---
+
+[**Chapter 1 - Stress**]{style="font-size:18.0pt"}
+
+::: {.callout-note icon="false"}
+## Learning Objectives
+
+-   Find internal loads using equilibrium
+-   Calculate average normal stress and average shear stress
+-   Calculate stresses on inclined planes
+:::

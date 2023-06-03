@@ -1,0 +1,12 @@
+---
+format: html
+editor: visual
+---
+
+[**Chapter 2 - Strain**]{style="font-size:18.0pt"}
+
+::: {.callout-note icon="false"}
+## Learning Objectives
+
+-   
+:::

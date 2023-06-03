@@ -1,0 +1,21 @@
+project: 
+  type: website
+  output-dir: docs
+  
+website:
+  title: "Mechanics of Deformable Bodies"
+  page-navigation: true
+  search: false
+  sidebar:
+    style: docked
+    collapse-level: 2
+    contents:
+      - Index.qmd
+      - section: "Chapter 1 - Stress"
+        contents:
+        - Chapter 1.qmd
+        - Chapter 1.1.qmd
+        - Chapter 1.2.qmd
+      - section: "Chapter 2 - Strain"
+        contents:
+        - Chapter 2.qmd

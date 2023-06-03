@@ -1,0 +1,26 @@
+---
+format: html
+editor: visual
+---
+
+## 1.1 Introduction
+
+In Statics we studied the effect of external loads (forces and moments) on rigid bodies. Rigid bodies are idealized bodies that do not deform. In practice, bodies are deformable. When subjected to forces they will deform and potentially even break. This text explores the effects of forces on deformable bodies. We will learn how to predict the amount of deformation under different types of loads, determine whether our bodies will break, and how to design objects to ensure they do not break or deform beyond acceptable limits.
+
+To analyze deformable bodies we will need to consider not only external loads but also the internal loads that occur as a result. Consider a generic 3-dimensional body subjected to multiple external loads in various directions (Figure 1.1 ). Cutting through the body and analyzing either side of the cut reveals that there are many internal loads created as a result of the external loads. We learned in Statics that multiple forces can be added together to determine a single resultant force and multiple moments can be similarly combined to determine a single resultant moment. Depending on the external loads, these internal loads will have varying magnitudes and directions.
+
+![Figure 1.1: Cross-section showing internal loads](Chapter%201.1_files/Picture1.1.png){fig-alt="Generic body subjected to four external loads. Multiple internal loads are shown on a cross-section cut through the body." width="650"}
+
+To standardize the analysis the internal resultant loads are broken into components. The internal resultant force will have one component perpendicular to the cross-section and two components parallel to it. Similarly the internal resultant moment will have one component acting around the axis perpendicular to the cross-section and two components acting around axes parallel to the cross-section. Each of these internal loads has a specific name:
+
+-   Normal Force (N) -- Acts perpendicular to the cross-section
+
+-   Shear Force (V) -- Acts parallel to the cross-section
+
+-   Torsional Moment (T) -- Acts around the axis perpendicular to the cross-section
+
+-   Bending Moment (M) -- Acts around an axis parallel to the cross-section
+
+A large proportion of this text is spent exploring the effects of each of these loads in detail, considering both deformation and breaking of bodies.
+
+There are three primary factors that determine whether an object will break under load. The material that the object is made from is important. Some materials are stronger than others. The other important factors are the magnitude of the internal load and the dimensions of the object.
